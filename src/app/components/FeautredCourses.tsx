@@ -1,9 +1,9 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import { Button } from './ui/moving-border';
-import courseData from '../../data/music_courses.json'
-import { BackgroundGradient } from './ui/background-gradient';
+import { Button } from '@/app/components/ui/moving-border';
+import courseData from '@/data/music_courses.json';
+import { BackgroundGradient } from '@/app/components/ui/background-gradient';
 
 
 interface Course {
@@ -23,7 +23,7 @@ export const FeaturedCourses = () => {
     <div className='py-12 pt-24'>
       <div>
         <div className='text-center text-white'>
-          <h2 className='text-xl text-teal-600 font-semibold tracking-wide'>Featured Courses</h2>
+          <p className='text-xl text-teal-600 font-semibold tracking-wide'>Featured Courses</p>
           <p className='mt-3 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Learn With The Best</p>
         </div>
       </div>

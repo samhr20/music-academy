@@ -15,14 +15,10 @@ const Navbar = ({ className }: { className?: string }) => {
           <MenuItem setActive={setActive} active={active} item="Home">
           </MenuItem>
         </Link>
-        <Link href={"#"}>
+        <Link href={""}>
           <MenuItem setActive={setActive} active={active} item="Our Courses">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="#">All Courses</HoveredLink>
-              <HoveredLink href="#">Basic Music Theory</HoveredLink>
-              <HoveredLink href="#">Advance Composition</HoveredLink>
-              <HoveredLink href="#">Song Writing</HoveredLink>
-              <HoveredLink href="#">Music Production</HoveredLink>
+              <HoveredLink href="/courses">All Courses</HoveredLink>
             </div>
           </MenuItem>
         </Link>
