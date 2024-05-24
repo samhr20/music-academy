@@ -18,7 +18,7 @@ const page = () => {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
 
-        <div className='min-h-screen py-12 pt-36 '>
+        <div className='min-h-screen py-20 pt-36  '>
           <div className='  mt-9 p-4 relative z-10 w-full text-center'>
             <p className='mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Contact Us</p>
             <p className='mt-4 font-normal text-sm md:text-sm text-gray-400 max-w-xl mx-auto'>We are here to help with any question about our courses , programs , or events . Reach out and let us know how we can assist you in your musical journey </p>
