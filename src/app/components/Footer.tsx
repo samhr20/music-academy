@@ -5,7 +5,7 @@ function Footer() {
     const sections = [
         {
             title: "About Us",
-            content: "Music School is a premier institution dedicated to teaching the art and science of music. We nurture talent from the ground up, fostering a vibrant community of musicians."
+            content: "Sam Codes is a leading institution committed to empowering the next generation of web developers. Join us to become a part of a dynamic community passionate about shaping the future of technology."
         },
         {
             title: "Quick Links",
@@ -26,10 +26,10 @@ function Footer() {
         },
         {
             title: "Contact Us",
-            address: "New Delhi, India",
-            postalCode: "Delhi 10001",
-            email: "info@musicschool.com",
-            phone: "(123) 456-7890"
+            address: "Btech AIML, Rps ",
+            benchCode: "Bench number : 1,4",
+            email: "shubhamsaini8965@gmail.com",
+            phone: "8278568770"
         }
     ];
 
@@ -63,15 +63,15 @@ function Footer() {
                         {section.address && (
                             <div>
                                 <p>{section.address}</p>
-                                <p>{section.postalCode}</p>
-                                <p>Email: {section.email}</p>
-                                <p>Phone: {section.phone}</p>
+                                <p>{section.benchCode}</p>
+                                <p>{section.email}</p>
+                                <p>{section.phone}</p>
                             </div>
                         )}
                     </div>
                 ))}
             </div>
-            <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+            <p className="text-center text-xs pt-8">© 2024 Sam codes. All rights reserved.</p>
         </footer>
     );
 }

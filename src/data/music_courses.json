@@ -2,103 +2,103 @@
   "courses": [
     {
       "id": 1,
-      "title": "Guitar Fundamentals",
-      "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-      "price": 99.99,
-      "instructor": "John Doe",
-      "isFeatured": true,
-      "image": "/guitar.jpg" 
+      "title": "Mastering HTML",
+      "slug": "mastering-html",
+      "description": "Dive into the basics of HTML and learn how to create well-structured web pages with semantic elements. Perfect for beginners.",
+      "price": 7499,
+      "instructor": "Arjun Patel",
+      "isFeatured": false,
+      "image": "/html-course.png"
     },
     {
       "id": 2,
-      "title": "Piano for Beginners",
-      "slug": "piano-for-beginners",
-      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-      "price": 109.99,
-      "instructor": "Jane Smith",
+      "title": "Advanced CSS Design",
+      "slug": "advanced-css-design",
+      "description": "Learn advanced CSS techniques to style and layout your web pages. Includes responsive design and modern CSS features.",
+      "price": 8499,
+      "instructor": "Priya Singh",
       "isFeatured": false,
-      "image": "/piano.jpg" 
+      "image": "/css-course.png"
     },
     {
       "id": 3,
-      "title": "Advanced Vocal Techniques",
-      "slug": "advanced-vocal-techniques",
-      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-      "price": 119.99,
-      "instructor": "Emily Johnson",
+      "title": "JavaScript Essentials",
+      "slug": "javascript-essentials",
+      "description": "Understand the fundamentals of JavaScript and how to use it to create interactive web applications.",
+      "price": 9499,
+      "instructor": "Vikram Desai",
       "isFeatured": true,
-      "image": "/vocalist.jpg" 
+      "image": "/javascript-course.png"
     },
     {
       "id": 4,
-      "title": "Drumming Mastery",
-      "slug": "drumming-mastery",
-      "description": "Master the drums with our comprehensive course covering all skill levels.",
-      "price": 129.99,
-      "instructor": "Mike Brown",
+      "title": "Introduction to Node.js",
+      "slug": "introduction-to-nodejs",
+      "description": "Learn server-side programming with Node.js and how to build scalable network applications.",
+      "price": 10499,
+      "instructor": "Sneha Kapoor",
       "isFeatured": false,
-      "image": "/drumming.jpg"
+      "image": "/nodejs-course.png"
     },
     {
       "id": 5,
-      "title": "Jazz Improvisation",
-      "slug": "jazz-improvisation",
-      "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-      "price": 139.99,
-      "instructor": "Chris Davis",
+      "title": "Building APIs with Express.js",
+      "slug": "building-apis-with-expressjs",
+      "description": "Get hands-on with Express.js to create and manage APIs efficiently.",
+      "price": 11499,
+      "instructor": "Aditya Menon",
       "isFeatured": false,
-      "image": "/jazz.jpg"
+      "image": "/expressjs-course.png"
     },
     {
       "id": 6,
-      "title": "Music Production Fundamentals",
-      "slug": "music-production-fundamentals",
-      "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-      "price": 149.99,
-      "instructor": "Alex Wilson",
+      "title": "Mastering MongoDB",
+      "slug": "mastering-mongodb",
+      "description": "Explore MongoDB, a NoSQL database, and learn how to manage and query your data effectively.",
+      "price": 12499,
+      "instructor": "Ishita Reddy",
       "isFeatured": true,
-      "image": "/music-prod.jpg"
+      "image": "/mongodb-course.png"
     },
     {
       "id": 7,
-      "title": "Songwriting Essentials",
-      "slug": "songwriting-essentials",
-      "description": "Learn the essentials of songwriting to express your musical creativity.",
-      "price": 159.99,
-      "instructor": "Samantha Miller",
-      "isFeatured": false,
-      "image": "/song-writing.jpg"
+      "title": "Full-Stack Development Bootcamp",
+      "slug": "full-stack-development-bootcamp",
+      "description": "Master both front-end and back-end development with this comprehensive bootcamp covering HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.",
+      "price": 24999,
+      "instructor": "Kiran Bhardwaj",
+      "isFeatured": true,
+      "image": "/fullstack-course.png"
     },
     {
       "id": 8,
-      "title": "Electronic Music Production",
-      "slug": "electronic-music-production",
-      "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-      "price": 169.99,
-      "instructor": "Luke Harris",
+      "title": "React Basics",
+      "slug": "react-basics",
+      "description": "Get started with React and learn to build dynamic user interfaces with this popular JavaScript library.",
+      "price": 13999,
+      "instructor": "Ananya Kumar",
       "isFeatured": true,
-      "image": "/music-prod.jpg"
+      "image": "/react-course.png"
     },
     {
       "id": 9,
-      "title": "Classical Music History",
-      "slug": "classical-music-history",
-      "description": "Explore the rich history of classical music from its origins to the present day.",
-      "price": 179.99,
-      "instructor": "Grace Lee",
-      "isFeatured": false,
-      "image": "/classical-music.jpg"
+      "title": "Data Structures and Algorithms",
+      "slug": "data-structures-and-algorithms",
+      "description": "Enhance your coding skills with a deep dive into data structures and algorithms, essential for problem-solving.",
+      "price": 14999,
+      "instructor": "Ravi Sharma",
+      "isFeatured": true,
+      "image": "/data-structures-course.png"
     },
     {
       "id": 10,
-      "title": "Blues Guitar Techniques",
-      "slug": "blues-guitar-techniques",
-      "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-      "price": 189.99,
-      "instructor": "Ethan Moore",
-      "isFeatured": true,
-      "image": "/blues.jpg"
+      "title": "TypeScript for Beginners",
+      "slug": "typescript-for-beginners",
+      "description": "Learn TypeScript, a typed superset of JavaScript, and understand how it enhances code quality and maintainability.",
+      "price": 15499,
+      "instructor": "Neha Sinha",
+      "isFeatured": false,
+      "image": "/typescript-course.png"
     }
   ]
 }

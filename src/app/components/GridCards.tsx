@@ -6,39 +6,41 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export const GridCards = () => {
     const testimonials = [
         {
-            quote:
-                "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-            name: "Charles Dickens",
-            title: "A Tale of Two Cities",
+          quote:
+            "Sam Codes completely transformed my approach to coding. The hands-on experience and guidance from experts have made me a more confident developer. I couldn't have asked for a better place to start my journey!",
+          name: "Aarav Sharma",
+          title: "Junior Web Developer",
         },
         {
-            quote:
-                "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-            name: "William Shakespeare",
-            title: "Hamlet",
+          quote:
+            "The supportive community and flexible learning paths at Sam Codes were exactly what I needed. I was able to refine my skills and grow as a developer at my own pace, with constant encouragement and support.",
+          name: "Isha Patel",
+          title: "Full-Stack Developer",
         },
         {
-            quote: "All that we see or seem is but a dream within a dream.",
-            name: "Edgar Allan Poe",
-            title: "A Dream Within a Dream",
+          quote:
+            "I loved the focus on practical projects! I gained real-world experience that I could immediately apply to my work. The instructors are knowledgeable and approachable, and I felt empowered throughout the entire learning process.",
+          name: "Rohan Kumar",
+          title: "Freelance Developer",
         },
         {
-            quote:
-                "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-            name: "Jane Austen",
-            title: "Pride and Prejudice",
+          quote:
+            "Sam Codes provided me with the mentorship and resources I needed to transition into a tech career. The personalized feedback and real-world projects were invaluable in helping me build a solid foundation in web development.",
+          name: "Sanya Mehta",
+          title: "Front-End Developer",
         },
         {
-            quote:
-                "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-            name: "Herman Melville",
-            title: "Moby-Dick",
+          quote:
+            "From beginner to a confident coder – that's how I would describe my journey with Sam Codes. The program is structured, engaging, and tailored to meet the needs of every learner. Highly recommended!",
+          name: "Vivaan Rao",
+          title: "Software Engineer",
         },
-    ]; 
+      ];
+      
     return (
         
         <div className="h-[40rem] rounded-md flex flex-col antialiased  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-            <h2 className="text-xl md:text-5xl my-10 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Hear Our Harmony : Voices of success</h2>
+            <p className="text-xl md:text-5xl my-10 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Hear Our Harmony : Voices of success</p>
             <InfiniteMovingCards
                 items={testimonials}
                 direction="right"

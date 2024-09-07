@@ -3,7 +3,7 @@ import HeroSection from '@/app/components/HeroSection'
 import { FeaturedCourses } from '@/app/components/FeautredCourses'
 import { Whychooseus } from '@/app/components/Whychooseus'
 import { GridCards } from '@/app/components/GridCards'
-import { MusicalJourney } from '@/app/components/MusicalJourney'
+import { DevelopmentJourney } from '@/app/components/DevelopmentJourney'
 import { Instructor } from '@/app/components/Instructor'
 
 const page = () => {
@@ -14,7 +14,7 @@ const page = () => {
       <FeaturedCourses />
       <Whychooseus/>
       <GridCards/>
-      <MusicalJourney/>
+      <DevelopmentJourney/>
       <Instructor/>
           </main>
 

@@ -7,71 +7,71 @@ import Image from "next/image";
 export const Whychooseus = () => {
   const content = [
     {
-      title: "Collaborative Songwriting",
+      title: "Hands-on Coding Experience",
       description:
-        "Create music together in real time with your bandmates, producers, and collaborators. Share ideas, refine lyrics, and compose melodies efficiently. With our platform, you can streamline your creative process and produce high-quality music faster.",
+        "Build real-world projects and enhance your skills by working on practical assignments. At Sam Codes, we focus on experiential learning, allowing you to develop and implement your coding abilities from day one.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-             <Image
-            src="/images.jpeg"
-            width={300}
-            height={300}
-            className="h-full w-full object-cover"
-            alt="Collaborative Songwriting"
-          />
-        </div>
-      ),
-    },
-    {
-      title: "Real-time Jam Sessions",
-      description:
-        "See musical changes as they happen. With our platform, you can track every note and beat in real time. No more confusion about the latest version of your track. Say goodbye to the chaos of multiple audio files and embrace the simplicity of real-time musical updates.",
-      content: (
-        <div className="h-full w-full  flex items-center justify-center text-white">
           <Image
-            src="/RealtimeJamSessions.jpg"
+            src="/hands-on-coding-experience.jpg"
             width={300}
             height={300}
             className="h-full w-full object-cover"
-            alt="Real-time Jam Session"
+            alt="Hands-on Coding Experience"
           />
         </div>
       ),
     },
     {
-      title: "Version Control for Tracks",
+      title: "Guidance from Industry Experts",
       description:
-        "Experience real-time updates and never stress about track version control again. Our platform ensures that you're always working on the most recent version of your song, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your music production without any interruptions.",
+        "Learn directly from experienced developers and professionals who will guide you through every step of your coding journey. Get personalized feedback, tips, and insights to fast-track your development skills.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <Image
+            src="/guidance-from-experts.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="Guidance from Industry Experts"
+          />
+        </div>
+      ),
+    },
+    {
+      title: "Tailored Learning Paths",
+      description:
+        "Select a path that aligns with your interests and schedule. Whether you’re starting from scratch or enhancing specific skills, we provide flexible options to help you achieve your goals.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
           <Image
-            src="/VersionControlforTracks.jpeg"
+            src="/tailored-learning-paths.png"
             width={300}
             height={300}
             className="h-full w-full object-cover"
-            alt="Version Control for Tracks"
+            alt="Tailored Learning Paths"
           />
         </div>
       ),
     },
     {
-      title: "Unlimited Creative Content",
+      title: "Supportive Coding Community",
       description:
-        "Never run out of musical inspiration. Our platform provides you with endless resources and tools to keep your creativity flowing. From sample libraries to lyric generators, stay inspired and keep producing music without hitting a creative block.",
+        "Become part of a thriving community of coders. Collaborate on projects, exchange knowledge, and grow alongside peers who are as passionate about coding as you are.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-         <Image
-            src="/sstk-music-announce.webp"
-            width={300}
-            height={300}
+          <Image
+            src="/supportive-coding-community.jpeg"
+            width={1000}
+            height={1000}
             className="h-full w-full object-cover"
-            alt=" Unlimited Creative Content"
+            alt="Supportive Coding Community"
           />
         </div>
       ),
     },
   ];
-
+  
   
   return (
     <div >
