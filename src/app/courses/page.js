@@ -14,7 +14,8 @@ const page = () => {
             <h1 className='mt-10 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center'>All Courses {Data.courses.length}</h1>
             <div className="flex flex-wrap justify-around gap-10 px-20 mt-10">
                 {Data.courses.map((data, index) => (
-                    <CardContainer className="inter-var">
+                    <CardContainer className="inter-var"
+                    key={index}>
                         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
